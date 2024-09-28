@@ -1,0 +1,7 @@
+# cook your dish here
+v = int(input(" "))
+if v>=12:
+    print("Yes")
+    
+else:
+    print("No")
