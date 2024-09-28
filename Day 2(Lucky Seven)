@@ -1,0 +1,4 @@
+# cook your dish here
+str = input().strip()
+
+print(str[6])
