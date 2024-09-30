@@ -1,0 +1,28 @@
+n = int(input())
+
+count = 0
+while count < n:
+    x, y, z = map(int, input().split())
+    a, b, c = map(int, input().split())
+    total1 = x + y + z
+    total2 = a + b + c
+    if total1 > total2:
+        print("DRAGON")
+    elif total2 > total1:
+        print("SLOTH")
+    else:
+        if x > a:
+            print("DRAGON")
+        elif a > x:
+            print("SLOTH")
+        else:
+            if y > b:
+                print("DRAGON")
+            elif b > y:
+                print("SLOTH")
+            else:
+                # All scores are equal
+                print("Tie")
+    
+    count += 1
+
