@@ -1,0 +1,15 @@
+# cook your dish here
+n = int(input())
+count = 0
+while(count<n):
+  n1,n2 =input().split()
+  x=int(n1)
+  y=int(n2)
+  if(x%6 == 0):
+      cost=(x//6)*y
+      print(cost)
+  else :
+    cost =(x//6 + 1)* y
+    print(cost)
+
+  count += 1
