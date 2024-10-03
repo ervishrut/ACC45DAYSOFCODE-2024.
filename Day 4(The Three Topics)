@@ -1,0 +1,8 @@
+# cook your dish here
+
+x,y,z,v = map(int, input().split())
+
+if v in {x,y,z}:
+    print("Yes")
+else:
+    print("No")
