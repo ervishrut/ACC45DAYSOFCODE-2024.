@@ -1,0 +1,8 @@
+# cook your dish here
+n= int(input())
+for _ in  range(n):
+    a,b,c=map(int,input().split())
+    if (a+b+c <= 1):
+        print("Water filling time")
+    else:
+        print("Not now")
