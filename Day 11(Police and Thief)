@@ -1,0 +1,13 @@
+# cook you# cook your dish here
+n = int(input())
+for _ in range(n):
+    x,y = map(int,input().split())
+    if x > y:
+        t = x-y
+        
+    elif x == y:
+        t =0
+    else:
+        t = y-x
+    
+    print(t)
