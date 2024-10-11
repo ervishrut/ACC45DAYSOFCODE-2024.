@@ -8,6 +8,5 @@ for _ in range(n):
     elif x == y:
         t =0
     else:
-        t = y-x
-    
+        t = y-x    
     print(t)
