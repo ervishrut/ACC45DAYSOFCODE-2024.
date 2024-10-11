@@ -1,0 +1,11 @@
+# cook your dish here
+n = int(input())
+for _ in range(n):
+    n = int(input())
+    s = input() 
+    if 'Y' in s:
+        print("NOT INDIAN")
+    elif 'I' in s:
+        print("INDIAN")
+    else:
+        print("NOT SURE")
